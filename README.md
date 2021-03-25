@@ -1,6 +1,21 @@
 # 网页优化A/B测试
 
+- 项目报告分享：[CSDN](https://blog.csdn.net/novelan/article/details/115212986)
+
+ - 项目源码链接：[Github Repo](https://github.com/NovelAn/abtest)
+
+```shell
+## 下载源码，请使用以下命令在你的本地上克隆repo
+
+git init
+git clone [项目源码链接]
+
+```
+
+
+
 ## 项目简介
+
 本项目是关于某电商平台在更新网页版本后，随机选取了两组用户，跟踪并收集了这两组用户在新旧网页的转化数据。
 项目采用Python作为分析工具，通过A/B测试，检测新页面的转化量是否显著优于旧页面，如果优于，则发布新页面，反之则不发布。
 
